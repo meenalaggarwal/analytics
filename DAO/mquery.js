@@ -55,7 +55,7 @@ MQuery.prototype.getAnalytics = function(platform) {
 	var self = this;
 	return new Promise(function (resolve, reject) {
 		var collection = self.dbClient.collection('records');
-		collection.findOne({platform: platform}).toArray(function(err, result) {
+		collection.find({platform: platform}).toArray(function(err, result) {
 			if (err) {
 				return reject(err);
 			} else {
