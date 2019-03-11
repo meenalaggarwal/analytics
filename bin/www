@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('analytics:server');
 var http = require('http');
 var optimist = require('optimist');
-var DBMultiplexer = require('../DAO/DBMultiplexer');
+var DBMultiplexer = require('../DAO/dbMultiplexer');
 var config = require('../config');
 
 
