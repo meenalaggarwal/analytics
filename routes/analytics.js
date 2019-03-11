@@ -76,7 +76,7 @@ module.exports = function(router, app) {
      *         description: Platform filter
 	 *     responses:
 	 *       200:
-	 *         description: Successfully uploading
+	 *         description: Analytics data
 	 */
 	router.get('/analytics', function (req, res, next) {
   		app.db.getAnalytics(req.query.platform)

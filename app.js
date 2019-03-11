@@ -17,7 +17,7 @@ var swaggerDefinition = {
     version: '1.0.0',
     description: 'Demonstrating how to describe a RESTful API with Swagger',
   },
-  host: 'https://s-analytics.herokuapp.com',
+  host: 's-analytics.herokuapp.com',
   basePath: '/',
 };
 
